@@ -1,0 +1,34 @@
+# Build outputs
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and runtime data
+*.log
+logs/
+data/
+tmp/
+temp/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local config and secrets
+.env
+*.key
+*.pem
+application-local.yml
+application-prod.yml
+bootstrap-local.yml
+bootstrap-prod.yml
+
+# Maven wrapper runtime
+.mvn/wrapper/maven-wrapper.jar
